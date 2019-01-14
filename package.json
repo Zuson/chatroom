@@ -1,0 +1,12 @@
+{
+	"name": "chatrooms",
+	"version": "0.0.1",
+	"description": "Minimalist multiroom chat server",
+	"dependencies": {
+		"livereload": "^0.7.0",
+		"mime": "^2.3.1",
+		"mime-types": "^2.1.21",
+		"node-gyp": "^3.8.0",
+		"socket.io": "^2.1.1"
+	}
+}

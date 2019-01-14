@@ -1,0 +1,168 @@
+/* 
+* @Author: sublime text
+* @Date:   2015-11-04 23:39:20
+* @Last Modified by:   sublime text
+* @Last Modified time: 2015-11-12 17:01:40
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body{
+	background-color: #CCCCCC;
+	width: 100%;
+	height: 1024px;
+}
+.zhuti{
+	width: 720px;
+	height: 600px;
+	background-color: #708090;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+.zhuti h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: Lucida Handwriting;
+	background-color: #696969;
+	border-top-left-radius:10px;  
+	border-top-right-radius:10px;
+}
+p{
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+}
+/*#shang{
+	width: 100%;
+	height: 200px;
+	position:absolute;
+	top: 170px;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+.room1{
+	width: 200px;
+	height: 200px;
+	/*background: url(../images/fangjian1.jpg);*/
+	position:absolute;
+	margin-left: 30px;
+	opacity:5;
+	transition:transform .5s;
+	border-radius: 10px;
+	/*filter:alpha(opacity=40)*/;
+	margin-top: 30px;
+}
+.room1 img{
+	border-radius: 10px;
+}
+.room1:hover{
+	/*background-color: #9966CC;*/
+	/*margin-top: 10px;*/
+	opacity:.5;
+	transform:scale(1.1);
+	/*filter:alpha(opacity=100);*/
+	/*display: none;*/
+}
+.room2{
+	/*background:url(../images/fangjian2.jpg);*/
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	margin-left: 260px;
+	opacity:5;
+	transition:transform .5s;
+	 .5s;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+.room2 img{
+	border-radius: 10px;
+}
+.room2:hover{
+	/*background-color: #9966CC;*/
+	opacity:.5;
+	transform:scale(1.1);
+}
+.room3{
+	/*background: url(../images/fangjian1.jpg);*/
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	margin-left: 490px;
+	opacity:5;
+	transition:transform .5s;
+	 .5s;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+.room3 img{
+	border-radius: 10px;
+}
+.room3:hover{
+	/*background-color: #9966CC;*/
+	opacity:.5;
+	transform:scale(1.1);
+}
+
+.room4{
+	/*background: url(../images/fangjian1.jpg);*/
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	margin-left: 30px;
+	margin-top: 280px;
+	opacity:5;
+	transition:transform .5s;
+	border-radius: 10px;
+}
+.room4 img{
+	border-radius: 10px;
+}
+.room4:hover{
+	/*background-color: #9966CC;*/
+	opacity:.5;
+	transform:scale(1.1);
+}
+.room5{
+	/*background: url(../images/fangjian1.jpg);*/
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	margin-left: 260px;
+	margin-top: 280px;
+	opacity:5;
+	transition:transform .5s;
+	border-radius: 10px;
+}
+.room5 img{
+	border-radius: 10px;
+}
+.room5:hover{
+	/*background-color: #9966CC;*/
+	opacity:.5;
+	transform:scale(1.1);
+}
+.room6{
+	/*background: url(../images/fangjian1.jpg);*/
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	margin-left: 490px;
+	margin-top: 280px;
+	opacity:5;
+	transition:transform .5s;
+	border-radius: 10px;
+}
+.room6 img{
+	border-radius: 10px;
+}
+.room6:hover{
+	/*background-color: #9966CC;*/
+	opacity:.5;
+	transform:scale(1.1);
+}
+

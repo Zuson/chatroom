@@ -1,0 +1,82 @@
+/* 
+* @Author: sublime text
+* @Date:   2015-11-11 16:45:09
+* @Last Modified by:   sublime text
+* @Last Modified time: 2015-11-12 17:26:58
+*/
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background:url(../images/fjbj.jpg) no-repeat;
+	/* background-repeat: repeat-y;*/
+	/*background-color: #708090;*/
+	background-size: 100%;
+	/*background-color: #9999CC;*/
+} 
+a {
+	color: #00B7FF;
+}
+#content {
+	width: 800px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: 10px;  
+}
+#room {
+	width: 800px;
+	height: 30px;
+	/*background-color: #C8C8C8;*/
+	background: linear-gradient(#D0D0D0, #888888); 
+	/*margin-bottom: 1em;*/
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	text-align: center;
+}
+#room-list{
+	background-color: #fff;
+	float: left;
+	width: 110px;
+	height: 470px;
+	overflow: auto;
+	border-bottom-left-radius: 10px;
+}
+
+#room-list div{
+	border-bottom: 1px solid #eee;
+}
+
+#room-list div:hover{
+	background-color: #ddd;
+}
+#room-body{
+	width: 690px;
+	height: 470px;
+	float: right;
+	background-color: #C0C0C0;
+	border-bottom-right-radius: 10px;
+}
+#messages {
+	width: 690px;
+	height: 400px;
+	overflow: auto;
+	background:url(../images/ltbj.jpg);
+	/*margin-bottom: 1em;*/
+}
+#send-message{
+	width: 580px;
+	height: 40px;
+	/*margin-bottom: 1em;
+	margin-right: 1em;*/
+	background-color: #fff;
+	margin-top: 23px;
+}
+#send-button{
+	width: 100px;
+	height: 40px;
+	/*float: right;*/
+}
+/*#help{
+	font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}*/
