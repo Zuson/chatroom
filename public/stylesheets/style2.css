@@ -7,9 +7,9 @@
 body {
 	padding: 50px;
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-	background:url(../images/fjbj.jpg) no-repeat;
+	/* background:url(../images/fjbj.jpg) no-repeat; */
 	/* background-repeat: repeat-y;*/
-	/*background-color: #708090;*/
+	background-color: #708090;
 	background-size: 100%;
 	/*background-color: #9999CC;*/
 } 
@@ -61,7 +61,7 @@ a {
 	width: 690px;
 	height: 400px;
 	overflow: auto;
-	background:url(../images/ltbj.jpg);
+	/* background:url(../images/ltbj.jpg); */
 	/*margin-bottom: 1em;*/
 }
 #send-message{
